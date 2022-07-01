@@ -1,6 +1,4 @@
 import React from 'react'
-import entrenador from '../img/entrenador.png'
-import pokeball from '../img/pokeball.png'
 import InputHome from './InputHome'
 
 const Home = () => {
