@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+.App {
+  text-align: center;
+  background: white;
+  min-height: 100vh;
+  color: #DD1A1A;
+  display: block;
+}
+.headerApp {
+  max-width: 100vh;
+}
+.NavBar img {
+  width: 80px;
+  display: flex;
+  justify-content: start;
+  padding-top: 11px;
+  margin-left: 40px;
+}
+.NavBar ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.NavBar li {
+  list-style: none;
+  padding: 10px 20px;
+}
+.NavBar li:hover {
+  margin-top: -3px;
+}
+.NavBar {
+  background-color: white;
+  height: 30px;
+  border-bottom: solid white ;
+}
+.navtext {
+  color: #DD1A1A;
+  text-decoration: none;
+  font-weight: 300;
+}
+.navtext i {
+  font-size: 30px;
+  padding-right: 20px;
+}
+.home img {
+  max-width: 25%;
+  margin: 0px;
+}
+.home h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.home p {
+  font-size: 20px;
+}
+.span {
+  font-weight: bold;
+  color: #DD1A1A;
+}
+.form {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.form input {
+  border: solid 1px #000000;
+  border-radius: 10px;
+  width: 30%;
+  min-width: 250px;
+  margin-right: 10px;
+  height: 28px;
+  padding: 0px 15px;
+  font-size: 16px;
+  color: #812323;
+}
+.form button {
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 1px;
+  font-size: 16px;
+}
+.principalCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.pokeCard {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,26,26,1) 0%, rgba(8,8,8,1) 100%, rgba(249,246,246,1) 100%);
+  background-color: rgba(255, 255, 255, 0.493);
+  color: white;
+  max-width: 330px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 5px solid #DD1A1A;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s;
+}
+.pokeCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 1px 1px 8px ;
+}
+.pokeCard img {
+  width: 200px;
+  max-height: 180px;
+  margin-top: 15px;
+}
+.pokeCard h2 {
+  margin-bottom: 10px;
+}
+.pokeCard hr {
+  background-color: #DD1A1A;
+  height: 2px;
+  border: none;
+}
+.infoCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: flex-start;
+  gap: 5px 20px;
+  margin-top: 10px;
+}
+.header {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  text-align: start;
+  
+}
+.header h2 {
+  margin-bottom: 10px;
+}
+.header p {
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: black;
+}
+.filter {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  justify-content: center;
+}
+.filter input {
+  border: solid 1px #000000;
+  border-radius: 5px;
+  width: 30%;
+  min-width: 200px;
+  margin-right: 10px;
+  height: 28px;
+  padding: 0px 15px;
+  font-size: 16px;
+  color: #DD1A1A;
+}
+.filter button {
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 1px;
+  font-size: 16px;
+  color: white;
+  background-color: #DD1A1A;
+}
+
+.BtnRemFilter {
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 1px;
+  font-size: 16px;
+  color: white;
+  background-color: #DD1A1A;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.BtnFilter {
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 1px;
+  font-size: 16px;
+  color: white;
+  background-color: #DD1A1A;
+}
+.pokeInfoCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.baseInfo {
+  background-color: rgba(255, 255, 255, 0.493);
+  width: 80%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 120px;
+  color: #000000;
+}
+.baseInfo h2 {
+  margin-top: 20px;
+  font-size: 28px;
+}
+.baseInfo p {
+  font-size: 18px;
+}
+.baseInfo hr {
+  background-color: #DD1A1A;
+  height: 2px;
+  border: none;
+}
+.pokemonPicture {
+  margin-top: -120px;
+  max-width: 400px;
+}
+.pokeImage {
+  display: flex;
+  justify-content: center;
+}
+.abilities {
+  background-color: rgba(255, 255, 255, 0.493);
+  width: 38.8%;
+  margin-left: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #000000;
+}
+.type {
+  background-color: rgba(255, 255, 255, 0.493);
+  width: 38.8%;
+  margin-right: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+  color: #000000;
+}
+.abilities h2 {
+  margin: 10px;
+  font-size: 28px;
+}
+.abilities hr {
+  background-color: #DD1A1A;
+  height: 2px;
+  border: none;
+}
+.type hr {
+  background-color: #DD1A1A;
+  height: 2px;
+  border: none;
+}
+.type h2 {
+  margin: 10px;
+  font-size: 28px;
+}
+.divition1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.divition1 p {
+  margin: 10px 20px;
+}
+.divition2 {
+  display: flex;
+  justify-content: center;
+}
+.divition2 p {
+  margin: 10px 20px;
+  font-size: 18px;
+}
+.divition3 {
+  display: flex;
+  justify-content: center;
+}
+.divition3 p {
+  margin: 10px 20px;
+  font-size: 18px;
+}
+.goBack {
+  margin: 20px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #DD1A1A;
+}
+.BtnGo {
+  margin: 20px;
+  width: 100px;
+  padding-top: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 1px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #DD1A1A;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.superiorPages {
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+.pagination {
+  display: flex;
+}
+.pagination button {
+  padding: 3px 0px;
+  margin: 5px 10px;
+  width: 40px;
+  border-radius: 10px;
+  border: solid 1px;
+  cursor: pointer;
+  color: white;
+  background-color: #DD1A1A;
+}
+.pagination input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 18px;
+  width: 50px;
+  border-radius: 10px;
+  border: solid 1px;
+  color: white;
+  background-color: #DD1A1A;
+}
+.pagination p {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+
+.footer {
+  max-width: 100vh;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: absolute;
+}
+.inputSelector {
+  margin-bottom: 40px;
+}
+.selector{
+  color: #000000;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+.selector button {
+  padding: 2px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 1px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.inputSelector {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  justify-content: center;
+}
+.principalCardFilter {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pagesSuperior {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: -10px;
+}
+.pagesInferior {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: -80px;
+}
+/*.removeFilter button {
+  padding: 2px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 1px;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+*/
+@media (max-width: 500px) { 
+  .divition2 p {
+    margin: 10px 10px;
+    font-size: 14px;
+  }
+  .divition3 p {
+    margin: 10px 10px;
+    font-size: 14px;
+  }
+  .pokemonPicture {
+    margin-top: -120px;
+    max-width: 300px;
+  }
+ }
